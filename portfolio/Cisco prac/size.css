@@ -1,0 +1,50 @@
+  body {
+    font-family: roboto, arial, sans-serif;
+    margin: 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding: 40px;
+    background: #8fa28a;
+    gap: none;
+    text-align: center;
+    color: #f7f4ed;
+    text-shadow: 1px 1px 0.15px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 30px;
+    color: #c8a96b;
+  }
+
+  header {
+  }
+
+  main {
+    margin: 15px;
+  }
+
+  section {
+    margin: 15px;
+  }
+
+  footer {
+    width: 100%;
+    background-color: #c8a96b;
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    bottom: 0;
+    position: fixed;
+  }
+
+  a:visited {
+    color: green;
+    }

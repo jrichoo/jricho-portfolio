@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+[data-highlight="true"] {
+  background-color: yellow;
+}
+
+[p^="My Hobbies"] {
+  color: blue;
+}
+#head {
+  font-size: 1rem;
+  display: inline-block;
+  background-color: salmon;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  font-size: 38rem;
+  background-color: black;
+  padding: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: orange;
+}
+
+h1 {
+  font-size: 2rem;
+  color: orange;
+  font-weight: bold;
+}
+
+#header {
+  border-bottom: 3px solid orange;
+}
+
+h2 {
+  font-size: 2rem;
+  color: black;
+}
+
+[highlight] {
+  background-color: orange;
+  padding: 5px;
+}
+
+a:hover {
+  color: red;
+  transition: 0.15s;
+}
